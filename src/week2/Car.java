@@ -188,48 +188,19 @@ public class Car {
                       // those unless the input is very large (e.g. several Gb!)
 
 
+        //  I've also left in the original test harness code that we wrote during the lecture - leaving it here for
+        //  reference and I recommend you always start with hardcoded values to verify things are working before
+        //  worrying about reading in a file
+        //
+        // Car jasonsOldCar = new Car("Ford", "Fiesta", "EK02DEU", "Mr Jason Lines");
+        // Car jasonsNewCar = new Car("Citroen", "DS3", "AB22JAY", "Dr Jason Lines");
+        // System.out.println("My old car:");
+        // System.out.println(jasonsOldCar);
+        // System.out.println("Changing the owner:");
+        // jasonsOldCar.setOwner("the scrapheap");
+        // System.out.println(jasonsOldCar);
+
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        Car jasonsOldCar = new Car("Ford", "Fiesta", "EK02DEU", "Mr Jason Lines");
-//        Car jasonsNewCar = new Car("Citroen", "DS3", "AB22JAY", "Dr Jason Lines");
-//
-//        System.out.println("My old car:");
-//        System.out.println(jasonsOldCar);
-//        System.out.println("Changing the owner:");
-//        jasonsOldCar.setOwner("the scrapheap");
-//        System.out.println(jasonsOldCar);
-
-
-
-//        System.out.println(jasonsNewCar);
-
-//    }
 
 }
