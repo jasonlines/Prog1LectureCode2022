@@ -2,10 +2,9 @@ package week2;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Locale;
 import java.util.Scanner;
 
-public class Car {
+public class Week2Car {
 
     // fields
     private String make;
@@ -14,7 +13,7 @@ public class Car {
     private String owner;
 
     // constructor(s)
-    public Car(String make, String model, String registration, String owner){
+    public Week2Car(String make, String model, String registration, String owner){
         this.make = make;
         this.model = model;
         this.reg = registration;
@@ -101,7 +100,7 @@ public class Car {
         // Let's also declare some variables that we'll reuse in the loop - not setting any values yet, just declaring
         // them for later use
         String line;
-        Car car;
+        Week2Car car;
 
         // We will also declare both of these for later - don't worry about them until we're inside the while loop
         Scanner lineScanner;
@@ -149,7 +148,7 @@ public class Car {
 
             // we now have the four parts of our line extracted so we can construct a Car object using the constructor
             // on line 15
-            car = new Car(make, model, reg, owner);
+            car = new Week2Car(make, model, reg, owner);
             // to verify that it's correct, let's print its toString method:
             System.out.println("New car created! : " + car);
             System.out.println(); // adding a blank line to the output to make it easier to read
