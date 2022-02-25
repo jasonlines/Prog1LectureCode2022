@@ -1,4 +1,4 @@
-package week4;
+package week4.exception_examples;
 
 // another simple class from the live lecture (25/02/22) where we can see a try block with multiple catch blocks to
 // deal with different types of Exceptions. Note that these expections are all "unchecked" (i.e. extend

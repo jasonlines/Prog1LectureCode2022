@@ -1,4 +1,4 @@
-package week4;
+package week4.exception_examples;
 
 // this class was a simple demo to show that you can catch Exceptions in different places. Try experimenting with it
 // and refer to the live lecture (25/02/22) to see this code in action
