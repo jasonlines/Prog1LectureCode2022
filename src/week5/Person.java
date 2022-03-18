@@ -8,9 +8,9 @@ package week5;
 // we can further specialise Person into something different to Student (even though Staff and Student both share some
 // important fields like title and names.
 
-public abstract class Person {
+public abstract class Person{
 
-    public enum Title {MR, MS, MISS, MRS, DR, PROF, PREFER_NOT_TO_SAY}
+    public enum Title {MR, MS, MX, MISS, MRS, DR, PROF, PREFER_NOT_TO_SAY}
 
     private Title title;
     private String firstName;
